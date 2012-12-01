@@ -15,6 +15,7 @@
 		2B407168166A1B00007E914B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B407167166A1B00007E914B /* AppDelegate.m */; };
 		2B40716B166A1B00007E914B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B40716A166A1B00007E914B /* ViewController.m */; };
 		2B40716E166A1B00007E914B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B40716C166A1B00007E914B /* ViewController.xib */; };
+		AD2E9F72166A1BCD00E6C1AA /* myaddition.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2E9F71166A1BCD00E6C1AA /* myaddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		2B407169166A1B00007E914B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B40716A166A1B00007E914B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B40716D166A1B00007E914B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AD2E9F70166A1BCD00E6C1AA /* myaddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myaddition.h; path = cccc/myaddition.h; sourceTree = "<group>"; };
+		AD2E9F71166A1BCD00E6C1AA /* myaddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myaddition.m; path = cccc/myaddition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,8 @@
 		2B407148166A1B00007E914B = {
 			isa = PBXGroup;
 			children = (
+				AD2E9F70166A1BCD00E6C1AA /* myaddition.h */,
+				AD2E9F71166A1BCD00E6C1AA /* myaddition.m */,
 				2B40715D166A1B00007E914B /* cccc */,
 				2B407156166A1B00007E914B /* Frameworks */,
 				2B407154166A1B00007E914B /* Products */,
@@ -164,6 +169,7 @@
 				2B407164166A1B00007E914B /* main.m in Sources */,
 				2B407168166A1B00007E914B /* AppDelegate.m in Sources */,
 				2B40716B166A1B00007E914B /* ViewController.m in Sources */,
+				AD2E9F72166A1BCD00E6C1AA /* myaddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +285,7 @@
 				2B407173166A1B00007E914B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
